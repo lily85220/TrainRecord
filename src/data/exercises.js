@@ -1,0 +1,72 @@
+export const exercises = [
+  {
+    id: 1,
+    name: '深蹲',
+    category: '腿部',
+    image: '/TrainRecord/images/squat.jpg',
+    type: 'bodyweight',
+  },
+  {
+    id: 2,
+    name: '伏地挺身',
+    category: '胸部',
+    image: '/TrainRecord/images/push-up.jpg',
+    type: 'bodyweight',
+  },
+  {
+    id: 3,
+    name: '引體向上',
+    category: '背部',
+    image: '/TrainRecord/images/pull-up.jpg',
+    type: 'bodyweight',
+  },
+  {
+    id: 4,
+    name: '硬舉',
+    category: '腿部',
+    image: '/TrainRecord/images/deadlift.jpg',
+    type: 'barbell',
+  },
+  {
+    id: 5,
+    name: '啞鈴肩推',
+    category: '肩部',
+    image: '/TrainRecord/images/dumbbell-shoulder-press.jpg',
+    type: 'dumbbell',
+  },
+  {
+    id: 6,
+    name: '槓鈴臥推',
+    category: '胸部',
+    image: '/TrainRecord/images/barbell-bench-press.jpg',
+    type: 'barbell',
+  },
+  {
+    id: 7,
+    name: '啞鈴划船',
+    category: '背部',
+    image: '/TrainRecord/images/dumbbell-row.jpg',
+    type: 'dumbbell',
+  },
+  {
+    id: 8,
+    name: '側平舉',
+    category: '肩部',
+    image: '/TrainRecord/images/lateral-raise.jpg',
+    type: 'dumbbell',
+  },
+  {
+    id: 9,
+    name: '二頭彎舉',
+    category: '手臂',
+    image: '/TrainRecord/images/bicep-curl.jpg',
+    type: 'dumbbell',
+  },
+  {
+    id: 10,
+    name: '棒式（Plank）',
+    category: '核心',
+    image: '/TrainRecord/images/plank.jpg',
+    type: 'bodyweight',
+  }
+];
