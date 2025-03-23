@@ -6,7 +6,15 @@ import WorkoutForm from '../views/WorkoutForm.vue'
 const routes = [
   {
     path: '/',
-    redirect: '/exercises'
+    redirect: '/records'
+  },
+  {
+    path: '/TrainRecord',
+    redirect: '/records'
+  },
+  {
+    path: '/TrainRecord/',
+    redirect: '/records'
   },
   {
     path: '/exercises',
